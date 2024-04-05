@@ -28,69 +28,69 @@ namespace ATV5_CJ3022625
 
 
 
-            //Console.WriteLine("\n<<EX.1>>");
-            //int n, c = 0;
+            Console.WriteLine("\n<<EX.1>>");
+            int n, c = 0;
 
-            //Console.WriteLine("Digite um número: ");
-            //n = int.Parse(Console.ReadLine());
-            //for (c = 0; c <= n; c++)
-            //{
-            //    Console.WriteLine(c);
+            Console.WriteLine("Digite um número: ");
+            n = int.Parse(Console.ReadLine());
+            for (c = 0; c <= n; c++)
+            {
+                Console.WriteLine(c);
 
-            //}
-
-
-
-
-
-            //Console.WriteLine("\n<<EX.2>>");
-            //int nm, p;
-            //Console.WriteLine("Digite um número: ");
-            //nm = int.Parse(Console.ReadLine());
-
-            //for (p = 1; p <= nm; p++)
-            //{
-            //    if (p % 2 == 0)
-            //    {
-            //        Console.WriteLine(p);
-            //    }
-
-            //}
+            }
 
 
 
 
 
-            //Console.WriteLine("\n<<EX.3>>");
-            //int num, d;
-            //Console.WriteLine("Digite um número menor que 1000: ");
-            //num = int.Parse(Console.ReadLine());
+            Console.WriteLine("\n<<EX.2>>");
+            int nm, p;
+            Console.WriteLine("Digite um número: ");
+            nm = int.Parse(Console.ReadLine());
 
-            //for (d = 1000; d >= num; d--)
-            //{
-            //    if (d % 2 == 0)
-            //    {
-            //        Console.WriteLine(d);
-            //    }
+            for (p = 1; p <= nm; p++)
+            {
+                if (p % 2 == 0)
+                {
+                    Console.WriteLine(p);
+                }
 
-            //}
+            }
 
 
-            //Console.WriteLine("Exercicio 4");
-            //int ps; int ww = 0;
-            //while (ww < 200)
-            //{
-            //    Console.WriteLine("Digite uma sequência de números inteiros: ");
-            //    ps = int.Parse(Console.ReadLine());
-            //    if (ps > 0)
-            //    {
-            //        ww += ps;
-            //    }
 
-            //    Console.WriteLine(ww);
-            //}
-                
-            
+
+
+            Console.WriteLine("\n<<EX.3>>");
+            int num, d;
+            Console.WriteLine("Digite um número menor que 1000: ");
+            num = int.Parse(Console.ReadLine());
+
+            for (d = 1000; d >= num; d--)
+            {
+                if (d % 2 == 0)
+                {
+                    Console.WriteLine(d);
+                }
+
+            }
+
+
+            Console.WriteLine("Exercicio 4");
+            int ps; int ww = 0;
+            while (ww < 200)
+            {
+                Console.WriteLine("Digite uma sequência de números inteiros: ");
+                ps = int.Parse(Console.ReadLine());
+                if (ps > 0)
+                {
+                    ww += ps;
+                }
+
+                Console.WriteLine(ww);
+            }
+
+
             Console.WriteLine("\n<<EX.5>>");
             int a, d;
             Console.WriteLine("Digite um número: ");
